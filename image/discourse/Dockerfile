@@ -1,4 +1,3 @@
-# Current version 1.0.13
 FROM zans/discourse_base
 
 MAINTAINER Zenon Skuza
