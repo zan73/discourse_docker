@@ -1,7 +1,7 @@
 # Current version 1.0.13
-FROM samsaffron/discourse_base:1.0.13
+FROM zans/discourse_base
 
-MAINTAINER Sam Saffron "https://twitter.com/samsaffron"
+MAINTAINER Zenon Skuza
 
 # Discourse specific bits
 RUN useradd discourse -s /bin/bash -m -U &&\
