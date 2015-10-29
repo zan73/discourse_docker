@@ -20,7 +20,7 @@ RUN useradd discourse -s /bin/bash -m -U &&\
 #RUN echo image size: $(du -hsx /)
 
 # Add samsaffron's configs and run
-ADD ../samples/standalone.yml /app.yml
+ADD /samples/standalone.yml /app.yml
 
 # Install Plex
 #ADD install.sh /
