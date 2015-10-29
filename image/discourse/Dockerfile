@@ -18,10 +18,3 @@ RUN useradd discourse -s /bin/bash -m -U &&\
 # For a smaller but less flexible image:
 #RUN apt-get -y autoremove build-essential gcc gcc-4.7 .+-dev
 #RUN echo image size: $(du -hsx /)
-
-# Add samsaffron's configs and run
-ADD /samples/standalone.yml /app.yml
-
-# Install Plex
-#ADD install.sh /
-#RUN bash /install.sh
