@@ -5,7 +5,7 @@ MAINTAINER Zenon Skuza
 # Add samsaffron's configs and run
 RUN mkdir /config
 RUN mkdir /config/samples
-RUN mdkir /config/templates
+RUN mkdir /config/templates
 
 ADD /samples/data.yml /config/samples
 ADD /samples/redis.yml /config/samples
